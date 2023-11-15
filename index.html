@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe</title>
+    <link rel="web icon" href="/images/coffee.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body class="parallax">
+    <nav class="navbar">
+        <h1 class="logo">Let Shopping!</h1>
+
+        <ul class="nav-links hidden" >
+            <li><a href="">Home</a></li>
+            <li><a href="">Visit</a></li>
+            <li><a href="">About</a></li>
+            <li class="dropdown">
+                <a href="">Contact &#9662;</a>
+                <ul class="submenu">
+                    <!-- <div class="dropdown-content"> -->
+                        <li><a target="_blank" href="https://www.instagram.com/preciious.me/">Instagram</a></li>
+                        <li><a target="_blank" href="https://github.com/ApaAjak">GitHub</a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UC_0fPeAgGrqHMn1LtFMF_pA">Youtube</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <i class="ph-bold ph-list menu-btn"></i>
+
+    </nav>
+    <header>
+        
+        <div  class="header-content">
+            <h2 data-aos="fade-down" data-aos-duration="3000">There are some Coffee</h2>
+            <!-- <div class="line"></div> -->
+            <h1 data-aos="fade-down" data-aos-duration="3000">A BEAUTIFUL SHOP's</h1>
+            <a data-aos="fade-down" data-aos-duration="3000" class="button" href="">learn more</a>
+        </div>
+    </header>
+    <!-- Tools section -->
+    <section class="tours">
+        <div class="title">
+            <h1 data-aos="fade-right-up" data-aos-duration="9000">Coffee</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img data-aos="fade-up" data-aos-duration="2000" src="/images/coffe.jpg" alt="">
+                <h4 data-aos="fade-down" data-aos-duration="3000">Visit it !</h4>
+            <a class="btn-about" href="https://www.google.com/maps/place/Rumah+Seduh+2+Coffee+and+Kitchen/@-6.5831717,106.8174356,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c59c292c1d11:0x753d72ff35cbd4ef!8m2!3d-6.5831717!4d106.8174356!16s%2Fg%2F11sf1c_d7k?entry=ttu">visit?</a>
+            </div>
+            <div class="column">
+                <img data-aos="fade-up" data-aos-duration="2000" src="/images/some shop.jpg" alt="">
+                <h4 data-aos="fade-down" data-aos-duration="3000">Visit it !</h4>
+            <a class="btn-about" href="https://www.google.com/maps/place/Rumah+Seduh+2+Coffee+and+Kitchen/@-6.5831717,106.8174356,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c59c292c1d11:0x753d72ff35cbd4ef!8m2!3d-6.5831717!4d106.8174356!16s%2Fg%2F11sf1c_d7k?entry=ttu">visit?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- explore section -->
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1 data-aos="fade-up" data-aos-duration="3000">The NCA Complete Guide to Coffee
+            </h1>
+            <div data-aos="fade-up" data-aos-duration="3000" class="line"></div>
+            <p data-aos="fade-up" data-aos-duration="3000">We believe that coffee is more than just a drink: It’s a culture, an economy, an art, a science — and a passion. Whether you're new to the brew or an espresso expert, whether you prefer it with or without caffeine, there's always more to learn about America's favorite beverage.</p>
+            <a data-aos="fade-up" data-aos-duration="3000" class="btn-about" href="https://www.ncausa.org/About-Coffee">explore it !</a>
+        </div>
+    </section>
+
+    
+    <!-- footers -->
+    <footer>
+        <p>
+            Designed by Yazied.
+        </p>
+        <p>Copyright &copy; 2023 Tours </p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", function()  {
+            navLinks.classList.toggle("hidden")
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+</body>
+</html>
